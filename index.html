@@ -4,6 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>South Mountain Drivers Club</title>
+  <!-- Social sharing -->
+  <meta name="description" content="South Mountain Drivers Club — a car enthusiasts' club based in Maplewood and South Orange, NJ." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://southmountaindrivers.com/" />
+  <meta property="og:title" content="South Mountain Drivers Club" />
+  <meta property="og:description" content="A car enthusiasts' club based in Maplewood and South Orange, NJ." />
+  <meta property="og:image" content="https://southmountaindrivers.com/images/bg.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="South Mountain Drivers Club" />
+  <meta name="twitter:description" content="A car enthusiasts' club based in Maplewood and South Orange, NJ." />
+  <meta name="twitter:image" content="https://southmountaindrivers.com/images/bg.jpg" />
+
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;900&display=swap" rel="stylesheet" />
   <style>
     @font-face {
@@ -127,7 +139,7 @@
       line-height: 10px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #c9a84c;
+      color: #716953;
     }
 
     footer .inner {
@@ -137,6 +149,26 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+  @media (max-width: 600px) {
+      .photo-credit {
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+      }
+
+      .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+
+      footer .inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 4px;
+      }
     }
   </style>
 </head>
